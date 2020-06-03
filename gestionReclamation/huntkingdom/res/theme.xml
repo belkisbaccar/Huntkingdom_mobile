@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="11" useXmlUI="false">
+    <image name="a.jpg"  />
+    <image name="b.jpg"  />
+    <image name="hunt.jpg"  />
+    <image name="load.jpg"  />
+    <image name="logohunt.png"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+    </theme>
+    <image name="ui-icon-notification-icon-bell-icon-yellow-sign-png-clip-art.png"  />
+</resource>
