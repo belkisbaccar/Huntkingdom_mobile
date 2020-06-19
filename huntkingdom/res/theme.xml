@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="10" useXmlUI="false">
+    <image name="1.png"  />
+    <image name="2.jpg"  />
+    <image name="ba.jpg"  />
+    <image name="hunt.jpg"  />
+    <image name="load.jpg"  />
+    <image name="logohunt.png"  />
+    <image name="round.png"  />
+    <image name="Shop.jpg"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+    </theme>
+</resource>
