@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mgilet/notification-bundle": "^3.1"
+    }
+}

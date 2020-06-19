@@ -1,0 +1,45 @@
+user_mobile_homepage:
+    path:     /user
+    defaults: { _controller: userMobileBundle:Default:index }
+connected:
+    path:     /connected/{id}
+    defaults: { _controller: userMobileBundle:Default:find }
+ajoutUserMobile:
+    path:     /ajoutUserMobile/{username}/{mail}/{password}/{photo}
+    defaults: { _controller: userMobileBundle:Default:ajouterUserMobile }
+
+chercherUserM:
+    path:     /chercherUserM/{username}
+    defaults: { _controller: userMobileBundle:Default:chercherUserM }
+
+chercherUserMail:
+    path:     /chercherUserMail/{mail}
+    defaults: { _controller: userMobileBundle:Default:chercherUserMail }
+
+all:
+    path:     /all
+    defaults: { _controller: userMobileBundle:Default:all }
+allparticipation:
+    path:     /allparticipation
+    defaults: { _controller: userMobileBundle:Default:allparticipation }
+al:
+    path:     /al
+    defaults: { _controller: userMobileBundle:Default:al }
+AfficheParticipation:
+    path:     /AfficheParticipation
+    defaults: { _controller: userMobileBundle:Default:AfficheParticipation }
+ajouterevent:
+    path:     /ajouterevent
+    defaults: { _controller: userMobileBundle:Default:ajouterevent }
+modifierevent:
+    path:     /modifierevent
+    defaults: { _controller: userMobileBundle:Default:modifierevent }
+supprimerevent:
+    path:     /supprimerevent
+    defaults: { _controller: userMobileBundle:Default:supprimerevent }
+supprimerparticipation:
+    path:     /supprimerParticipation
+    defaults: { _controller: userMobileBundle:Default:supprimerParticipation }
+ajouterparticipation:
+    path:     /ajouterparticipation/{id}
+    defaults: { _controller: userMobileBundle:Default:ajouterparticipation }
